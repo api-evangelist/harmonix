@@ -1,8 +1,24 @@
 aid: harmonix
 name: Harmonix
-description: 'Harmonix is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: gaming. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Harmonix Music Systems is one of the world''s leading independent game development
+  studios, best known for creating blockbuster music and rhythm franchises including Rock Band and
+  Dance Central, alongside titles such as Amplitude, Fuser, DropMix, Audica, Super Beat Sports, and
+  Harmonix Music VR. Founded in 1995 and based in Cambridge, Massachusetts, the studio was acquired
+  by Epic Games in 2021 and continues to invent the future of music and motion gaming. Harmonix
+  operates a consumer-facing web presence (games, music, community, blog, and press) and publishes no
+  public developer API, SDK, or documentation surface at this time.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.harmonixmusic.com/static/img/hmx-ball.png
 url: https://raw.githubusercontent.com/api-evangelist/harmonix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Gaming
+- Music Games
+- Rhythm Games
+- Video Games
+- Game Development
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/harmonix-domain-security.yml
 - type: Website
   url: https://www.harmonixmusic.com
+- type: Blog
+  url: https://www.harmonixmusic.com/blog
+- type: TermsOfService
+  url: https://www.harmonixmusic.com/terms
+- type: PrivacyPolicy
+  url: https://www.harmonixmusic.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
