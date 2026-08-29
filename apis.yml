@@ -7,6 +7,17 @@ description: 'Harmonix Music Systems is one of the world''s leading independent 
   by Epic Games in 2021 and continues to invent the future of music and motion gaming. Harmonix
   operates a consumer-facing web presence (games, music, community, blog, and press) and publishes no
   public developer API, SDK, or documentation surface at this time.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
